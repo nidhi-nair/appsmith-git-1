@@ -1,0 +1,3 @@
+UPDATE order_table
+SET replacement = 1
+WHERE order_id={{Input1Copy1.text}}::varchar;

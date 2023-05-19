@@ -1,0 +1,1 @@
+select * from customer_details where cid={{appsmith.URL.queryParams.cid}}::varchar

@@ -1,0 +1,2 @@
+insert into refund_data (orderid,amount,refundmethod,expected_delivery_date_month) values (
+{{Table1.selectedRow.order_id}},{{refundAmount.value}},{{refundMethod.selectedOptionValue}},{{Table1.selectedRow.expected_delivery_date_month}})

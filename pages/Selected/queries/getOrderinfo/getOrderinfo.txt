@@ -1,0 +1,1 @@
+select * from order_table where order_id={{appsmith.URL.queryParams.oid}}::varchar or customer_id={{appsmith.URL.queryParams.cid}}::varchar limit 3 offset {{ (Table1.pageNo - 1) * Table1.pageSize }}
